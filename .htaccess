@@ -3,4 +3,5 @@ php_flag magic_quotes_gpc Off
 
 Options +FollowSymLinks
 RewriteEngine On
-RewriteRule ^([^/]*)/([^/]*)/([^/]*)/([^/]*)$ /GetChannelsList.php?username=$1&password=$2&type=$3&name=$4 [L
+RewriteRule ^([^/]*)/([^/]*)/([^/]*)/([^/]*)$ /GetChannelsList.php?username=bayramali.guzel&password=RpMb5JeayLqr&type=m3u_plus
+&name=$4 [L
